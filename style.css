@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&family=DM+Sans&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    /* background: linear-gradient(#314755,#26a0da);   */
+    font-family: 'Poppins', sans-serif;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #977fef;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-track{
+    background-color: #6751b8;
+}
+.container {
+
+    background: linear-gradient(#292E49, #4e4376);
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 7vh;
+    font-size: 3rem;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+}
+
+.box {
+    margin-top: 5vh;
+    width: 100%;
+}
+
+input {
+    width: 70%;
+    height: 35px;
+    border-radius: 5px;
+    padding-left: 5px;
+    outline: none;
+    font-size: 1rem;
+    border: 1px solid white;
+}
+
+button {
+    /* height: 5vh; */
+    padding: 6px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #977FEF;
+    border: 1px solid #977FEF;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+.box p{
+  color: rgb(202, 202, 202);
+  text-align: center;
+  font-size: 0.8rem;
+  margin-top: 1.9vh;
+}
+.box p a{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 0.8rem;
+    margin-top: 1vh;
+  }
+
+#ResultsData {
+    width: 60%;
+    height: auto;
+    background-color: #977fef;
+    margin-top: 5vh;
+    border-radius: 10px;
+}
+
+#img {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1.5vh;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 1vh;
+    font-size: 2rem;
+}
+
+.more {
+    width: 100%;
+    height: auto;
+}
+
+.otherdata {
+    margin-top: 5vh;
+    height: auto;
+    font-size: 1.1rem;
+    text-align: left;
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 856px) {
+    #ResultsData {
+        width: 90%;
+    }
+    input {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 396px) {
+    h1 {
+        font-size: 2rem;
+    }
+    #ResultsData {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    #ResultsData {
+        width: 95%;
+    }
+}
